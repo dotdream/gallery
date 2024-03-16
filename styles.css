@@ -34,6 +34,7 @@ body{
   background: #fff;    /* not all browsers set white as the default background color  */
   color: #444;         /* color is set to create not too much contrast with the background color */
   line-height: 1.4;    /* line-height is to ensure that text is legible enough ( enough space between the lines) */
+  margin: 4em;
 }
 
 select,input,button,textarea,button {
