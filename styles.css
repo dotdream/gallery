@@ -34,7 +34,7 @@ body{
   background: #fff;    /* not all browsers set white as the default background color  */
   color: #444;         /* color is set to create not too much contrast with the background color */
   line-height: 1.4;    /* line-height is to ensure that text is legible enough ( enough space between the lines) */
-  margin: 4em;
+
 }
 
 select,input,button,textarea,button {
@@ -75,8 +75,8 @@ h3 {
  * you could remove from there elements you do not used in your documents, but I don't think it'd worth it
  */
 body, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td {
-  margin: 0;
-  padding: 0;
+  margin: 2;
+  padding: 2;
 }
 
 h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol,dl {
