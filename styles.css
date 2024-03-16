@@ -146,7 +146,10 @@ fieldset, img {
 
 /* to prevent a gap from showing below images in some browsers
  */
-img {vertical-align: top;}
+img {
+	vertical-align: top;
+	padding: 2em;
+}
 
 /* color is to make that element stands out (see color set via body)
  * padding is used so Internet Explorer does not cut-off descenders in letters like p, g, etc.)
