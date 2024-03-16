@@ -37,6 +37,10 @@ body{
 
 }
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+
 select,input,button,textarea,button {
   font:99% arial,helvetica,clean,sans-serif;
 }
@@ -152,7 +156,7 @@ fieldset, img {
  */
 img {
 	vertical-align: top;
-	padding: 2em;
+	padding: 1.5em;
 }
 
 /* color is to make that element stands out (see color set via body)
@@ -335,3 +339,11 @@ form .input.text label {
 .field_with_errors .error {
   padding-left: 10px;
 }
+
+.source-sans 3-standard {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
