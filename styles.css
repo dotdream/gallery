@@ -27,7 +27,11 @@ If you want this size in pixels (px)	Declare this percent (%)
 */
 
 body{
+<<<<<<< Updated upstream
   font:13px/1.231 arial,helvetica,clean,sans-serif; /* YUI Font Reset */
+=======
+  font:1.5em arial,helvetica,sans-serif; /* YUI Font Reset */
+>>>>>>> Stashed changes
   *font-size:small;     /* YUI Font Reset */
   *font:x-small;        /* YUI Font Reset */
   height: 100%;
