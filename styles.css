@@ -75,14 +75,14 @@ h3 {
  * you could remove from there elements you do not used in your documents, but I don't think it'd worth it
  */
 body, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td {
-  margin:2 2;
+  margin:10px 10px;
   padding:0;
 }
 
 h1,h2,h3,h4,h5,h6,strong,th,dt,b {
 	/*bringing boldness back to headers and the strong element*/
 	font-weight:bold;
-	margin:2 2;
+	margin:10px 10px;
 }
 
 abbr,acronym {
