@@ -29,12 +29,12 @@ If you want this size in pixels (px)	Declare this percent (%)
 body{
 	font-family: "Source Sans 3", sans-serif;
 	  font-optical-sizing: auto;
-	  font-weight: 500;
+	  font-weight: 300;
 	  font-style: normal;
   height: 100%;
   background: #fff;    /* not all browsers set white as the default background color  */
   color: #444;         /* color is set to create not too much contrast with the background color */
-  line-height: 1.8;    /* line-height is to ensure that text is legible enough ( enough space between the lines) */
+  line-height: 1.4;    /* line-height is to ensure that text is legible enough ( enough space between the lines) */
 
 }
 
@@ -54,8 +54,10 @@ table {
 }
 
 pre,code,kbd,samp,tt {
-  font-family:monospace;
-  *font-size:108%;
+	font-family: "Source Code Pro", monospace;
+	  font-optical-sizing: auto;
+	  font-weight: <weight>;
+	  font-style: normal;
   line-height:100%;
 }
 
