@@ -75,13 +75,13 @@ h3 {
  * you could remove from there elements you do not used in your documents, but I don't think it'd worth it
  */
 body, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td {
-  margin: 2;
-  padding: 2;
+  margin: 15em;
+  padding: 0;
 }
 
 h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol,dl {
 	/* top & bottom margin based on font size */
-	margin:1em 0;
+	margin:15em 0;
 }
 
 h1,h2,h3,h4,h5,h6,strong,th,dt,b {
