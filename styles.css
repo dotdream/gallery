@@ -176,10 +176,13 @@ legend {
 code {color: #06f;}
 code, pre {	font-family: "Source Code Pro", monospace;
 	  font-optical-sizing: auto;
-	  font-weight: 600;
+	  font-weight: 400;
 	  font-style: normal;
- font-size: 1em;}
+ font-size: 1.1em;}
 
+ pre {
+	 padding-left: 5em;
+ }
 /* to prevent some browsers from inserting quotes on "q" and "p" ("p" in blockquotes) */
 blockquote p:before, blockquote p:after, q:before, q:after {content: '';}
 
@@ -357,7 +360,7 @@ form .input.text label {
 .quote {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: italic;
   padding-left: 3em;
   padding-right: 5em;
