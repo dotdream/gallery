@@ -174,7 +174,11 @@ legend {
  * http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
  */
 code {color: #06f;}
-code, pre {font-family: "Courier New", monospace, serif; font-size: 1em;}
+code, pre {	font-family: "Source Code Pro", monospace;
+	  font-optical-sizing: auto;
+	  font-weight: 600;
+	  font-style: normal;
+ font-size: 1em;}
 
 /* to prevent some browsers from inserting quotes on "q" and "p" ("p" in blockquotes) */
 blockquote p:before, blockquote p:after, q:before, q:after {content: '';}
@@ -356,5 +360,5 @@ form .input.text label {
   font-weight: 500;
   font-style: italic;
   padding-left: 3em;
-  margin-right: 10em;
+  padding-right: 5em;
 }
