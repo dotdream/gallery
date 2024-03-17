@@ -365,3 +365,13 @@ form .input.text label {
   padding-left: 3em;
   padding-right: 5em;
 }
+
+.pull-quote {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 200%;
+  padding-left: 3em;
+  padding-right: 5em;
+}
