@@ -54,10 +54,8 @@ table {
 }
 
 pre,code,kbd,samp,tt {
-	font-family: "Source Code Pro", monospace;
-	  font-optical-sizing: auto;
-	  font-weight: 600;
-	  font-style: normal;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
   line-height:100%;
 }
 
@@ -174,15 +172,17 @@ legend {
  * http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
  */
 code {color: #06f;}
-code, pre {	font-family: "Source Code Pro", monospace;
-	  font-optical-sizing: auto;
-	  font-weight: 400;
-	  font-style: normal;
- font-size: 1.1em;}
+code, pre {	
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  }
 
  pre {
-	 padding-left: 5em;
+  padding-left: 3em;
  }
+ 
 /* to prevent some browsers from inserting quotes on "q" and "p" ("p" in blockquotes) */
 blockquote p:before, blockquote p:after, q:before, q:after {content: '';}
 
