@@ -63,17 +63,17 @@ pre,code,kbd,samp,tt {
 
 h1 {
 	/*18px via YUI Fonts CSS foundation*/
-	font-size:160%;
+	font-size:200%;
 }
 
 h2 {
 	/*16px via YUI Fonts CSS foundation*/
-	font-size:130%;
+	font-size:150%;
 }
 
 h3 {
 	/*14px via YUI Fonts CSS foundation*/
-	font-size:110%;
+	font-size:115%;
 }
 
 /* margin and padding values are reset for all these elements
